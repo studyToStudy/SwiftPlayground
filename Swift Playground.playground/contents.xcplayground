@@ -3,5 +3,7 @@
     <pages>
         <page name='Array'/>
         <page name='Dictionary'/>
+        <page name='Func'/>
+        <page name='hello.world'/>
     </pages>
 </playground>

@@ -1,4 +1,4 @@
-// Dictionary exercises
+// Func exercises
 
 import Swift
 
