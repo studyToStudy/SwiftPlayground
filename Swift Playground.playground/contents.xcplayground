@@ -5,5 +5,6 @@
         <page name='Dictionary'/>
         <page name='Func'/>
         <page name='hello.world'/>
+        <page name='Closure'/>
     </pages>
 </playground>
