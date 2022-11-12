@@ -25,9 +25,20 @@ func someFunction(name: String) -> Void {
     return
 }
 // 매개변수를 가진 클로저는 튜플의 형태로 받을 수 있다. + in
-let someClosure: (_ name: String) -> Void = { (name: String) in
-    print(#function + "name: \(name)")
+//let someClosure: (_ name: String) -> Void = { (name: String) in
+//    print(#function + "name: \(name)")
+//    return
+//}
+
+//let someClosure: (_ name: String) -> Void = { name in
+//    print(#function + "name: \(name)")
+//    return
+//}
+
+let someClosure: (_ name: String) -> Void = {
+    print(#function + "name: \($0)")
     return
 }
+
 someFunction(name: "이정후")
 someClosure("이정후입니다")
